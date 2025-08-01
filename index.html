@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Joke Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="joke-card">
+            <div class="header">
+                <i class="fas fa-laugh-squint"></i>
+                <h1>Random Joke Generator</h1>
+                <p>Get ready to laugh! Click the button below for a random joke.</p>
+            </div>
+            
+            <div class="joke-content">
+                <div class="joke-display" id="joke">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="joke-text">Click the button to get a joke!</p>
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </div>
+            
+            <div class="button-container">
+                <button id="btn" class="joke-btn">
+                    <i class="fas fa-dice"></i>
+                    <span>Get Random Joke</span>
+                </button>
+            </div>
+            
+            <div class="loading-spinner" id="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Loading joke...</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
