@@ -12,7 +12,7 @@ A web application that fetches and displays random jokes using the Fetch API. Bu
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://Kunalsahu2002.github.io/Random-Joke-Generator)
+[View Live Demo](https://kunalsahu2002.github.io/Random-Joke-Generator/)
 
 ## 🛠️ Technologies Used
 
